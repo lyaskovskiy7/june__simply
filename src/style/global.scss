@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.wrapper {
+    @include wrapper();
+}
+
+.block{
+    display: block!important;
+}
+.height{
+    height: 50vh;
+}
+
+.red{
+    background: #5094f2;
+}
+
+.blue{
+    background: #d94748;
+}
+
+.yellow{
+    background: #ebbb11;
+}
+
